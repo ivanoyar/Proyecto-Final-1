@@ -417,7 +417,6 @@ nav a:hover {
 }
 
 .clases {
-  border: 0px solid #fff;
   color: #161616;
   text-align: center;
   text-transform: uppercase;
@@ -425,6 +424,10 @@ nav a:hover {
   font-family: "purista";
   line-height: 1.7rem;
   padding-top: 23rem;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 #assault {
@@ -436,6 +439,13 @@ nav a:hover {
   max-width: 32rem;
 }
 
+#assault:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 #heavy {
   grid-area: "heavy";
   background-image: url(../IMG/heavy.PNG);
@@ -443,6 +453,13 @@ nav a:hover {
   height: 70vh;
   max-height: 53rem;
   max-width: 32rem;
+}
+
+#heavy:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #medic {
@@ -454,6 +471,13 @@ nav a:hover {
   max-width: 32rem;
 }
 
+#medic:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 #sniper {
   grid-area: "sniper";
   background-image: url(../IMG/sniper.png);
@@ -461,6 +485,13 @@ nav a:hover {
   height: 70vh;
   max-height: 52rem;
   max-width: 32rem;
+}
+
+#sniper:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* INICIO SECCION ASALTO */
