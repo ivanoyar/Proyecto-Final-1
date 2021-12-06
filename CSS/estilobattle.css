@@ -495,128 +495,101 @@ nav a:hover {
 }
 
 /* INICIO SECCION ASALTO */
+.claseAsalto {
+  background-image: url(/IMG/fondo\ asalto.jpg);
+  height: 140vh;
+  max-height: 100rem;
+  max-width: 188rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.specsTitulo {
+  padding-top: 50px;
+  padding-left: 90px;
+}
+
+.specsTitulo h2 {
+  font-family: "regular1";
+  font-size: 95px;
+  line-height: 84px;
+  text-align: start;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: #26ffdf;
+}
+
+.specsVideoAsalto {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 95px;
+}
+
+.specsAsaltoHabilidades {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(3, 75px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1/1/2/2;
+  display: grid;
+  justify-content: center;
+}
+
+.div2 {
+  grid-area: 1/2/2/3;
+  display: grid;
+  justify-content: center;
+}
+
+.div3 {
+  grid-area: 2/1/3/2;
+  display: grid;
+  color: white;
+  justify-content: center;
+  letter-spacing: -1px;
+}
+
+.div4 {
+  grid-area: 2/2/3/3;
+  display: grid;
+  color: white;
+  justify-content: center;
+  letter-spacing: -1px;
+}
+
+.div5 {
+  grid-area: 3/1/4/2;
+  display: grid;
+  color: white;
+  justify-content: center;
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  font-family: "light1";
+}
+
+.div6 {
+  grid-area: 3/2/4/3;
+  display: grid;
+  color: white;
+  justify-content: center;
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  font-family: "light1";
+}
+
 /* INICIO SESION WORLD 2042 */
-.secSass {
-  background-color: gray;
-  max-height: 1600px;
-  max-width: 3000px;
-  width: 100%;
-}
-
-.divSass {
-  background-color: #26ffdf;
-  width: 100%;
-}
-
-.div2Sass, .h3 {
-  font-family: "light1";
-  font-size: 25px;
-  font-weight: bold;
-  color: #0000ff;
-}
-
-.h3 {
-  background-color: green;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.asalto-img,
-.heavy-img,
-.medic-img,
-.sniper-img {
-  height: 450px;
-  width: 250px;
-  border: 3px solid red;
-}
-
-.asalto-img {
-  background-image: url(/IMG/asalto.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.heavy-img {
-  background-image: url(/IMG/heavy.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.sniper-img {
-  background-image: url(/IMG/sniper.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.medic-img {
-  background-image: url(/IMG/medic.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.bucles {
-  background-color: #d3ff90;
-}
-.bucles .h32 {
-  font-family: "light1";
-  font-size: 25px;
-  text-transform: uppercase;
-}
-
-.battle {
-  height: 250px;
-  background-color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color: hotpink;
-}
-
-.numerito-bucle {
-  width: 25%;
-}
-
-.numerito-bucle {
-  width: 50%;
-}
-
-.numerito-bucle {
-  width: 75%;
-}
-
-.btn--norte {
-  background-color: cyan;
-  height: 150px;
-  width: 400px;
-  font-size: 50px;
-  color: grey;
-  text-transform: uppercase;
-}
-
-.btn--sur {
-  background-color: black;
-  height: 150px;
-  width: 400px;
-  font-size: 50px;
-  color: grey;
-  text-transform: uppercase;
-}
-
-.btn--este {
-  background-color: pink;
-  height: 150px;
-  width: 400px;
-  font-size: 50px;
-  color: grey;
-  text-transform: uppercase;
-}
-
-.btn--oeste {
-  background-color: yellow;
-  height: 150px;
-  width: 400px;
-  font-size: 50px;
-  color: grey;
-  text-transform: uppercase;
-}
 
 /*# sourceMappingURL=estilobattle.css.map */
