@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+$cyan: #26ffdf;
+
+@mixin div5 {
+    display: grid;
+    color: white;
+    justify-content: center;
+    padding-left: 75px;
+    font-size: 20px;
+    line-height: normal;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: "light1";
+}
+
+@mixin div6 {
+    display: grid;
+    color: white;
+    justify-content: center;
+    padding-left: 100px;
+    font-size: 20px;
+    line-height: normal;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: "light1";
+}
+
   /* VALOR DE UNIDAD PX A REM, 16 */
 
   /* TIPOGRAFIA */
@@ -116,7 +142,7 @@ nav a {
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: normal;
-    background-color: #26ffdf;
+    background-color: $cyan;
     text-decoration: none;
 }
 
@@ -314,7 +340,7 @@ nav a {
     font-size: 16px;
     color: black;
     letter-spacing: normal;
-    background-color: #26ffdf;
+    background-color: $cyan;
     text-decoration: none;
 }
 
@@ -325,7 +351,7 @@ nav a {
     font-size: 16px;
     color: black;
     letter-spacing: normal;
-    background-color: #26ffdf;
+    background-color: $cyan;
     text-decoration: none;
 }
 
@@ -365,10 +391,10 @@ nav a {
 
 .links {
     text-decoration: none !important;
-    color: #26ffdf;
+    color: $cyan;
 
     &:hover {
-    color: #26ffdf;
+    color: $cyan;
     }
 }
 
@@ -536,7 +562,7 @@ nav a {
     text-align: start;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #26ffdf;
+    color: $cyan;
 }
 
 .specsVideoAsalto{
@@ -627,7 +653,7 @@ nav a {
     text-align: start;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #26ffdf;
+    color: $cyan;
 }
 
 .specsVideoSoporte{
@@ -718,7 +744,7 @@ nav a {
     text-align: start;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #26ffdf;
+    color: $cyan;
 }
 
 .specsVideoMedico{
@@ -809,7 +835,7 @@ nav a {
     text-align: start;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #26ffdf;
+    color: $cyan;
 }
 
 .specsVideoFrancotirador{
@@ -875,7 +901,5 @@ nav a {
     letter-spacing: normal;
     font-family: "light1";
 }
-
-
 
     /* INICIO SESION WORLD 2042 */
