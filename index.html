@@ -18,9 +18,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="../CSS/estilobattle.css" rel="stylesheet">
     <style>
-        @media (max-width: 576px) and (orientation: portrait) {
+/*         @media (max-width: 576px) and (orientation: portrait) {
 
-            /* AL ACTIVAR EL INSPECCTOR NO CAMBIA EL TAMAÑO LAS IMAGENES */
             .carousel {
                 height: 50vh;
             }
@@ -61,6 +60,46 @@
 
             .carousel-caption p {
                 font-size: 25px;
+            }
+        } */
+
+        @media (min-width: 320px) and (max-width: 767px){
+            .introimg{
+                width: 1050px;
+            }
+        }
+            .videointro{
+                width: 180vh;
+            }
+            .hazard{
+                width: 1050px;
+                background-size: cover;
+            }
+            .hazardContenido{
+                padding-bottom: 350px;
+            }
+            .hazard__parrafo{
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                line-height: 2rem;
+                letter-spacing: normal;
+                font-family: "light1";
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .hazard__video {
+                width: 100%;
+                height: 100vh;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+
+            @media (min-width: 992px){
+            .hazard{
+                height: 270vh;
+                max-height: 100%;
+                width: 100%;
             }
         }
     </style>
@@ -124,10 +163,11 @@
     </header>
     <main>
         <section>
+            <div class="introimg">
             <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active slider slider__imagenes">
-                        <video autoplay muted loop>
+                        <video class="videointro" autoplay muted loop>
                             <source src="/IMG/fondomp4.mp4" type="video/mp4">
                             <source src="/IMG/fondomp4.ogg" type="video/ogg">
                             Tu navegador no soporta el formato del video.
@@ -143,7 +183,7 @@
                                 <a href="https://www.youtube.com/watch?v=WomAGoEh-Ss&t=0s" target="_blank"><button type="button"
                                 class="btn btn-light botonT">Watch the Trailer</button></a>
                     </div>
-                    <div class="carousel-item slider slider__imagenes">
+                    <!-- <div class="carousel-item slider slider__imagenes">
                         <img class="d-block w-100" src="../IMG/fondo5.jpg" data-src="holder.js/900x400?theme=industrial"
                             alt="#" data-holder-rendered="true">
                     </div>
@@ -154,7 +194,7 @@
                     <div class="carousel-item slider slider__imagenes">
                         <img class="d-block w-100" src="../IMG/fondo33.jpg"
                             data-src="holder.js/900x400?theme=industrial" alt="#" data-holder-rendered="true">
-                    </div>
+                    </div> -->
                 </div>
                 <a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
                     <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> OCULTO-->
@@ -163,12 +203,14 @@
                     <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> OCULTO-->
                 </a>
             </div>
+        </div>
         </section>
         <section>
             <div class="hazard">
-                <div>
+                <div class="hazardContenido">
+                    <div>
                     <img src="../IMG/hazard1.svg" alt="hazard" class="hazard__logo">
-                </div>
+                    </div>
                 <p class="hazard__parrafo">A tense, squad-focused survival experience, Battlefield™ Hazard Zone combines
                     edge-of-your-seat
                     gameplay with the best of the Battlefield sandbox.</p>
@@ -184,6 +226,7 @@
                     Forces. Succeed by gathering the Data Drives and choosing when to extract before a storm overtakes
                     the area in this high-stakes, one-life experience. Every bullet, every skirmish, and every decision
                     counts.</p>
+                </div>
             </div>
         </section>
         <!-- TENDRIA QUE PASARLO A GRID Y NO FLEX YA QUE PUEDE SER MAS OPTIMO -->
