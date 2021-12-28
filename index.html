@@ -94,14 +94,50 @@
                 padding-left: 80px;
                 padding-right: 80px;
             }
-
-            @media (min-width: 992px){
-            .hazard{
-                height: 270vh;
-                max-height: 100%;
-                width: 100%;
+            .modos{
+                width: 1050px;
+                height: 2000px;
+            }
+            .modos__modosDeJuego{
+                width: 1050px;
+                margin-right: 0px;                
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: space-evenly;
+                justify-content: space-around;
+            }
+            .ModoDerecha{
+                margin-top: 220px;
+            }
+            .w2042{
+                width: 1050px;
+            }
+            .faq{
+                width: 1050px;
+            }
+            .footer{
+                width: 1050px;
+                height: 700px;
+            }
+            @media (min-width: 767px) and (max-width: 991px){
+                .introimg{
+                width: 1050px;
             }
         }
+            .videointro{
+                width: 180vh;
+            }
+            @media (min-width: 992px){
+                .introimg{
+                    width: 100%;
+                }
+                .videointro{
+                width: 185vh;
+            }
+            }
+            
     </style>
 </head>
 
@@ -118,14 +154,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">about</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="HTML/clases.html" name="Specialist">Specialists</a>
+                            <!-- <a class="dropdown-item" href="HTML/clases.html" name="Specialist">Specialists</a> -->
                             <a class="dropdown-item" href="#gameExp" name="Gameplay">Games Experiences</a>
                             <a class="dropdown-item" href="#faq" name="FAQ">FAQ</a>
                             <!-- <a class="dropdown-item" href="#footer">Sign Up</a> -->
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="HTML/world2042.html">WORLD OF 2042</a>
+                        <a class="nav-link" href="HTML/clases.html" name="Specialist">Specialists</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">news and
@@ -251,11 +287,13 @@
                         </p>
                     </div>
                     <div class="modos__modalidades">
+                        <div class="ModoDerecha">
                         <img src="../IMG/derecha.jpg" alt="ModoDerecha">
                         <h2 class="modos__subtitulos">Battlefield™ Hazard Zone</h2>
                         <p class="modos__parrafo">An all-new experience that combines edge-of-your-seat gameplay with
                             the best of the Battlefield
                             sandbox.</p>
+                        </div>
                     </div>
                 </div>
             </div>
